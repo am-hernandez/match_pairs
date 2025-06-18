@@ -1,5 +1,5 @@
 [package]
-name = "match_cards"
+name = "match_pairs"
 type = "bin"
 authors = ["am-hernandez"]
 
