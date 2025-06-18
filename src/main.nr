@@ -1,6 +1,16 @@
-// Function receives two public fields and one private field. Assert the public fields point to the same values in the private field's array.
-fn main(x: [str<1>; 16], y: pub u32, z: pub u32) {
-    assert(x[y] == x[z]);
+/// Verifies that two indices point to the same value in an array.
+///
+/// # Arguments
+///
+/// * `pairing_options` - An array of 16 single-character strings
+/// * `first_choice` - A public index into the array
+/// * `second_choice` - A public index into the array
+///
+/// # Returns
+///
+/// This function asserts that the values at indices `first_choice` and `second_choice` in array `pairing_options` are equal.
+fn main(pairing_options: [str<1>; 16], first_choice: pub u32, second_choice: pub u32) {
+    assert(pairing_options[first_choice] == pairing_options[second_choice]);
 }
 
 #[test]
