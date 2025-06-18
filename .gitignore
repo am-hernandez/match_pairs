@@ -1,0 +1,38 @@
+# Noir build artifacts
+target/
+prover.toml
+verifier.toml
+proofs/
+contracts/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Debug files
+*.log
+*.pdb
+
+# Dependencies
+node_modules/
+.nargo/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Test coverage
+coverage/
