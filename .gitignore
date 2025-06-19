@@ -3,7 +3,6 @@ target/
 prover.toml
 verifier.toml
 proofs/
-contracts/
 
 # IDE and editor files
 .idea/
